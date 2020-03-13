@@ -10,7 +10,7 @@ function Home(props){
 
   return(
     <div>
-      {/* <Banner/> */}
+      <Banner/>
       {/* <TodoApp/> */}
       <ContentSection/>
     </div>

@@ -31,7 +31,7 @@ function* onGetMoreTrendingGifs(action){
 function* onGiphySearch(action){
   console.log(action)
   try {
-    const search = yield action.search;
+    const search = action.search;
     const data = yield fetchSearchAPI(url_search_giphy, api_key, search)
     yield put(actions.giphySearchSuccess(data))
   } catch (error) {
