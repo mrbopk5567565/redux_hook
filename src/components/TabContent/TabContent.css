@@ -1,0 +1,25 @@
+.content {
+  display: none;
+}
+.content.active {
+  display: block;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.content--tabFirst {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.content--basic{
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  margin: 20px;
+}
+
+.content--basic--name{
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}

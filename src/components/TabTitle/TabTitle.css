@@ -1,0 +1,12 @@
+.tab {
+  /* border-bottom: 1px solid black; */
+  padding: 10px;
+  cursor: pointer;
+  background: white;
+  max-width: 100%;
+  font-weight: 600;
+}
+
+.tab.active {
+  background: #95a5a6;
+}
