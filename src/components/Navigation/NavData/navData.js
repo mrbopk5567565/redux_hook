@@ -15,4 +15,8 @@ export const navData = [
     name: 'Giphy',
     link: '/giphy',
   },
+  {
+    name: 'Material UI',
+    link: '/material-ui',
+  },
 ];
